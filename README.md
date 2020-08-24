@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Secret Recipe App
+A place to store all of your secret family recipes, handed down from generation to generation. We will create an app with a Sign Up/ Log In feature where you can add and search for your secret family recipes. You will be able to search for recipes by title or tagged categories. There will be a home page to view all of the entered recipes. You will not be able to view any recipes without an account. You will have the ability to create a new recipe, including title, source or creator of that recipe (ex. Grandma Ethel), ingredients, instructions, and category (dinner, chicken, dessert, pasta, etc.) and the ability to edit or delete it later if desired. 
 
-## Available Scripts
+Features to be added:
+You will also have the ability to upload a photo of the original recipe along with the recipe entry and be able to invite another user with the link to view the recipe.
 
-In the project directory, you can run:
+(https://www.notion.so/FT-Build-Week-Product-Catalog-3d7b2a1e617f4bd4b43f86dd99b79d80?p=a351e9ccf0dd47f28446dde87b2ce71b)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Product Vision Document:
+(https://docs.google.com/document/d/1kY-G09a7rUUpEeJgmq-f9Hi8AZ1pKM_aqV34z8GQhvE/edit#heading=h.7unkvve9utkw)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Color Scheme:
+- Page background: Bisque
+- Title and Header Backgrounds: Salmon or crimson
+- Text color: White Smoke with black border
+- Font: inter
 
-### `npm test`
+## MVP OBJECTIVES
+[X] Item 1 - Created functional components and used events in application to add dynamic functionality to app.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[X] Item 2 - Code was organized at the component level, proper usage of state and props are demonstrated throughout the project, the UI is composed of small reusable components, proper usage of useState and useEffect hooks are clearly incorporated and correctly implemented. Student used Array methods to dynamically render HTML elements.
 
-### `npm run build`
+[ ] Item 3 - Implemented GET requests using either axios or fetch to display 3rd party data on a deployed page. Route management properly installed and used to show top level pages as well as nested views where necessary.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[ ] Item 4 - Set up component management for the forms in the app that makes sense for each form. Student made the decision to use a third-party library, like formik, or not, and can defend their decision. Some form validation is in place.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## STRETCH OBJECTIVES
+[ ] Item 1 - Incorporate a third party event/animation library like unto Greensock(GSAP), Anime, React-motion, etc. (https://greensock.com/react/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[ ] Item 2 - Was able to architect components to be easily reused. Student used advanced React techniques like the composition pattern, custom hooks, render props, HOCs, etc.
 
-### `npm run eject`
+[ ] Item 3 - Not only are standard techniques employed, the code is organized in such a fashion that the student demonstrated proper use of container vs presentational components or other industry standards, conventions, or patterns.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[ ] Item 4 - Showed great insight in setting up the state management for the app's forms. Form validation is in place for all fields, and covers all use cases. Loading states and success/error notifications are in place and add to the overall UX of the app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
